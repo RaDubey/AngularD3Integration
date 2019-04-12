@@ -192,7 +192,7 @@ export class ChartComponent implements OnInit, OnChanges {
       .append('text')
       .attr("y", 15)
       .attr("transform", "rotate(-90)")
-      .attr("fill", "#000")
+      .attr("fill", "#000") 
       .text("Total values");
   }
 

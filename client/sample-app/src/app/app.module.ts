@@ -5,7 +5,8 @@ import { HttpClientModule } from "@angular/common/http";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChartComponent } from './chart/chart.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatVideoModule } from 'mat-video';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ChartComponent } from './chart/chart.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    MatVideoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
